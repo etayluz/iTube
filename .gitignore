@@ -2,3 +2,32 @@ out
 midiParser/~$MoonlightSonanta.xlsx
 videos/*
 production/app.js
+
+# Mac OS X
+*.DS_Store
+
+# Xcode
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcuserstate
+project.xcworkspace/
+xcuserdata/
+iTube.xcodeproj/project.xcworkspace/xcuserdata/etayluz.xcuserdatad/UserInterfaceState.xcuserstate
+iTube.xcodeproj/project.xcworkspace/xcuserdata/
+iTube.xcodeproj/xcuserdata/
+IPA/
+
+# Generated files
+*.o
+*.pyc
+
+
+#Python modules
+MANIFEST
+dist/
+build/
+
+# Backup files
+*~.nib
