@@ -443,6 +443,7 @@
 				B4B10D1E192D54B900A70C7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B4B10D1F192D54B900A70C7F /* Build configuration list for PBXNativeTarget "iTubeTests" */ = {
 			isa = XCConfigurationList;
@@ -451,6 +452,7 @@
 				B4B10D21192D54B900A70C7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

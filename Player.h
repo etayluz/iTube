@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface Player : UIViewController
-
+@interface Player : UIViewController  <UIWebViewDelegate>
+@property UIWebView *webView;
 @end
