@@ -6,7 +6,7 @@
 <body style="background-color:#900000;overflow-x:hidden;width:100%">
   <body>
     <!-- 1. The <iframe> (and video player) will replace this <div> tag. -->
-    <div id="player"></div>
+    <div id="player" style="position:absolute;left:0%;top:0%;width:100%;height:100%">></div>
 
     <script>
       // 2. This code loads the IFrame Player API code asynchronously.
@@ -22,7 +22,7 @@
       function onYouTubeIframeAPIReady() {
         player = new YT.Player('player', {
           height: '300',
-          width: '480',
+          width: '450',
           videoId: 'M7lc1UVf-VE',
           events: {
             'onReady': onPlayerReady,
