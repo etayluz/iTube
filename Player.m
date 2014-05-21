@@ -24,6 +24,8 @@
     //theWebView.frame = CGRectMake(0, 0, 800, 1000);
     [self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://localhost/itube/"]]];
     self.webView.delegate = self;
+    self.webView.scrollView.scrollEnabled = NO;
+    self.webView.scrollView.bounces = NO;
     [self.view addSubview:self.webView];
 }
 
