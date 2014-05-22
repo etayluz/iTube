@@ -22,7 +22,9 @@
     /* WEB VIEW */
     self.webView = [[UIWebView alloc] initWithFrame:CGRectMake(0, 0,self.view.frame.size.height,320)];
     //theWebView.frame = CGRectMake(0, 0, 800, 1000);
+    //[self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://etayluz.com/itube/index.php"]]];
     [self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://localhost/itube/"]]];
+    //[self.webView loadRequest:[NSURLRequest requestWithURL:[[NSBundle mainBundle] URLForResource: @"index" withExtension:@"html"]]];
     self.webView.delegate = self;
     self.webView.scrollView.scrollEnabled = NO;
     self.webView.scrollView.bounces = NO;
