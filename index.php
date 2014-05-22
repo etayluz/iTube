@@ -38,6 +38,7 @@
     }
     function onStateChange(event) {
         window.location.href = 'ytplayer://onStateChange?data=' + event.data;
+		player.playVideo()
     }
 
     function onPlaybackQualityChange(event) {
